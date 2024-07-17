@@ -1,0 +1,78 @@
+/* Reset de estilos básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #fff; /* Letras brancas */
+    line-height: 1.6;
+    background-image: url('Veiculos.jpeg'); /* URL da imagem de fundo */
+    background-size: cover; /* Para cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita repetição */
+    background-attachment: fixed; /* Fixa a imagem no fundo */
+  }
+  
+  .header {
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo do cabeçalho semi-transparente */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para conteúdo */
+    padding: 20px;
+  }
+  
+  #map {
+    flex: 1;
+    height: 400px; /* Altura do mapa */
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo semi-transparente para barra lateral */
+    padding: 1rem;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+
+
